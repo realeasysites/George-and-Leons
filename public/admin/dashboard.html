@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Leads | George + Leon's Admin</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="tb-left">
+      <img src="/img/logo-script.png" alt="George + Leon's" width="74" height="51">
+      <h1>Big Orders &amp; Event Leads</h1>
+    </div>
+    <div class="tb-right">
+      <a href="/" target="_blank" rel="noopener">View site</a>
+      <button id="logout" type="button">Sign out</button>
+    </div>
+  </header>
+
+  <main class="dash">
+    <section class="stats" id="stats"></section>
+
+    <div class="toolbar">
+      <div class="filters" id="filters" role="group" aria-label="Filter by status"></div>
+      <input id="search" type="search" placeholder="Search name, phone, details…" aria-label="Search leads">
+    </div>
+
+    <section id="list" class="list" aria-live="polite"></section>
+  </main>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

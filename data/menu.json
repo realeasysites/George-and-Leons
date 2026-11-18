@@ -1,0 +1,84 @@
+{
+  "note": "All beef is served rare. Prices can change — online ordering always has today's prices. 6+ sandwiches? Call it in ahead: (207) 591-0280.",
+  "sections": [
+    {
+      "id": "hot-beef",
+      "title": "Hot Beef + Eats",
+      "tagline": "All beef is served rare.",
+      "items": [
+        { "name": "Super Beef", "price": "19", "tag": "The Three Way", "desc": "Fresh beef, white American, James River BBQ sauce and Duke's mayo on a griddled onion roll." },
+        { "name": "Jr Beef", "price": "14", "desc": "Same Three Way, smaller hands. Fresh beef, white American, James River BBQ and Duke's mayo on a griddled hamburger roll." },
+        { "name": "Super Mac", "price": "19", "desc": "Fresh beef, white American, George's Special Sauce, lettuce, pickles and onions on a griddled onion roll." },
+        { "name": "Steak and Cheese", "price": "20", "desc": "Shaved steak with white American on a sub roll. Add peppers +.50, Carmies +.50, mushrooms +1." },
+        { "name": "Brown Buttah Shroom Sub", "price": "18", "veg": true, "desc": "Chopped rotating mushrooms, arugula, Swiss or goat cheese, with mayo on a sub roll." },
+        { "name": "Chicken Finger Sub", "price": "18", "desc": "Fried chicken brined in buttermilk, maple syrup and bourbon, with lettuce, pickles and mayo on a sub roll." },
+        { "name": "Cheeseburger Sub", "price": "18", "desc": "Smash patty, American cheese, lettuce, pickles, onions and George's Special Sauce on a sub roll." },
+        { "name": "Chipotle Chicken Banger", "price": "18", "desc": "Buttermilk-maple-bourbon fried chicken, bacon, American, lettuce, pickles and chipotle lime aioli on a griddled onion roll." },
+        { "name": "Buffalo Chicken Sub", "price": "18", "desc": "Brined fried chicken tossed in buffalo, with lettuce, tomatoes and house-made blue cheese dressing." },
+        { "name": "Big Salad", "price": "14", "desc": "Rotating seasonally. Add brined grilled or fried chicken +3." },
+        { "name": "Rich + Famous Combo Meal", "price": "55", "tag": "Bring a friend", "desc": "A flight of three Apres, two Jr Beefs and chicken tendies with home-made honey mustard." }
+      ]
+    },
+    {
+      "id": "snacks",
+      "title": "Snack Attack",
+      "tagline": "Sandwiches don't come with fries. Fix that here.",
+      "items": [
+        { "name": "Onion Rings", "price": "11", "desc": "House onion rings with sriracha ranch." },
+        { "name": "Chicken Tendies", "price": "13", "desc": "Brined in buttermilk, maple syrup + bourbon, with home-made honey mustard." },
+        { "name": "Fries", "price": "6–9", "desc": "Creole seasoned, with ketchup." },
+        { "name": "3-Way Fries", "price": "15", "tag": "Fan favorite", "desc": "Fries, fresh beef, white American, mayo + James River BBQ sauce." },
+        { "name": "Broccoli Bites", "price": "9", "desc": "Bacon, broccoli and cheddar with sriracha ranch." },
+        { "name": "Pizza Roll", "price": "7", "veg": true, "desc": "House dough and mozzarella, with Sauce + Destroy marinara." },
+        { "name": "Sweet Potato Fries", "price": "9", "desc": "Waffle cut, with ketchup." }
+      ]
+    },
+    {
+      "id": "extras",
+      "title": "Top It + Dip It",
+      "tagline": "Make it yours. Within reason.",
+      "groups": [
+        {
+          "title": "Top It",
+          "items": [
+            { "name": "Murder It (extra BBQ)", "price": ".50" },
+            { "name": "4-Way (add onion rings)", "price": "2" },
+            { "name": "Lettuce", "price": ".50" },
+            { "name": "Onion", "price": ".50" },
+            { "name": "Pickles", "price": ".50" },
+            { "name": "Horseradish", "price": ".50" },
+            { "name": "Gluten-free bun", "price": "3" }
+          ]
+        },
+        {
+          "title": "Dip It",
+          "items": [
+            { "name": "James River BBQ Sauce", "price": ".50" },
+            { "name": "Sriracha Ranch", "price": ".50" },
+            { "name": "George's Special Sauce", "price": ".50" },
+            { "name": "Garlic Lemon Aioli", "price": ".50" },
+            { "name": "Horseradish Sauce", "price": ".50" },
+            { "name": "Home-Made Honey Mustard", "price": ".50" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "title": "Kids + Sweets",
+      "tagline": "For the little beefers.",
+      "items": [
+        { "name": "Baby Beef", "desc": "A kid-sized roast beef." },
+        { "name": "Kids Burger", "desc": "Simple. Classic. Kid-approved." },
+        { "name": "Kids Grilled Cheese", "desc": "Melty, golden, no surprises." },
+        { "name": "Rotating Desserts", "desc": "Locally made sweets that change all the time — ask what's in the case." }
+      ]
+    }
+  ],
+  "happyHour": {
+    "when": "3–5 daily",
+    "price": "10",
+    "name": "Happy Hour",
+    "desc": "Double smash burger with American, lettuce, pickles, onions and George's Special Sauce + a Miller High Life."
+  }
+}
